@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    cursor: url("../images/favicons/favicon1.png");
+}
+
+i {
+    color: #636363;
+}
+
+i:hover {
+    color: #000000;
+}
+
+a, h2 {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#navBtn {
+    padding: 10px 30px;
+}
+
+@media screen and (max-width:400px) {
+    .navbar-toggler {
+        width: 100vw;
+        text-align: center;
+    }
+
+    #projects {
+        padding-top: 30px;
+      
+        text-align: center;
+    }
+    #me {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #navBtn {
+        padding: 6px 10px;
+    }
+}
+
+

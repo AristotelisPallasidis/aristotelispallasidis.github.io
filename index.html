@@ -1,75 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Aristotelis Pallasidis</title>
+    <!-- Meta tags -->
+    <meta name="title" content="Aristotelis Pallasidis Portfolio">
+    <meta name="description"
+        content="Hey, I'm Aristotle a Software Engineer from Greece and this is my website where you can find my projects or socials.Click to check❤️">
+    <meta name="keywords"
+        content="portfolio, software developer, software engineer, internship, intern, junior developer, HTML, Javascript, Bootstrap5, CSS">
+    <meta name="robots" content="index, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Aristotelis Pallasidis">
 
-        <link rel="shortcut icon" href="./images/favicon.jpg" type="image/jpg">
-        <link rel="stylesheet" href="./index.css">        
-    
+    <!-- Title -->
+    <title>Aristotelis Pallasidis</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicons/favicon1.png" type="image/x-icon">
+
+    <!-- Bootstrap 5.2.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/fd117605fb.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Animations -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 </head>
-
 <body>
-       
-<article>
-                
-        <section class="introduction">
-                <p class="intro-title ">I'm <a href="https://www.instagram.com/aristotelis.pallasidis/?hl=en" target="_black">Aris</a>, a junior software developer</p>
-                <p class="intro-subtitle">Am currently a computer science undergraduate.</p>
-        </section>
-        
 
-        <section class="projects">
-                
+    <section>
+        <div class="container">
+            <img src="./images/logo.png" class="float-end" alt="MyLogo" height="42" width="142">
+        </div>
+    </section>
+    
+    <br>
 
-                <div class="gobigorgohome">
-                        <p class="title">Go big or go home.</p>
-                        <a href=""><img src="./images/go big or home/project1.jpg" alt="Lock Down" target="_black"></a>
-                        <a href=""><img src="./images/go big or home/project2.jpg" alt="Load Down" target="_black"> </a>
-                        <a href=""><img src="./images/go big or home/project3.jpg" alt="HipitiHop" target="_black"></a>
-                        <a href=""><img src="./images/go big or home/project4.jpg" alt="Bloom" target="_black"> </a>
-                        <a href=""><img src="./images/go big or home/project5.jpg" alt="Kastro" target="_black"></a>
-                        <a href=""><img src="./images/go big or home/project6.jpg" alt="UnLoad" target="_black"></a>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-light navbar-expand-lg mt-4">
+                <a href="./index.html" class="navbar-brand fw-bold text-capitalize">aristotelis pallasidis</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                    <ul class="navbar-nav ml-auto gap-3">
+                        <li class="navbar-item">
+                            <a href="./index.html" class="nav-link active" id="projects">projects</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="./me.html" class="nav-link" id="me">about me</a>
+                        </li>
+                    </ul>
                 </div>
-                
-                <div class="whatspoppin">
-                        <p class="title">What's poppin?</p>
-                        <a href=""><img src="./images/what's poppin/project3.jpg" alt="Lock Down" target="_black"></a>
-                        <a href=""><img src="./images/what's poppin/project2.jpg" alt="Load Down" target="_black"> </a>
-                        <a href=""><img src="./images/what's poppin/project6.jpg" alt="HipitiHop" target="_black"></a>
-                        <a href=""><img src="./images/what's poppin/project1.jpg" alt="Bloom" target="_black"></a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5 mb-4" id="project1">
+                    <a href="./project1.html">
+                        <img src="./images/04.jpg" alt="A picture of the first project" class="img-fluid">
+                    </a>
+                    <ul class="list-inline gap-3 mt-2 mb-2 opacity-50 fw-semibold">
+                        <li class="list-inline-item">HTML5</li>
+                        <li class="list-inline-item">CSS</li>
+                        <li class="list-inline-item">Bootstrap 5</li>
+                        <li class="list-inline-item">JavaScript</li>
+                    </ul>
+                    <a href="./project1.html" class="text-decoration-none">
+                        <h2 class="h2 fw-semibold text-decoration-none">Personal Portfolio</h2>
+                    </a>
+                    <p>This project is about the personal website that you are using right now...</p>
+                    <a href="./project1.html" class="btn btn-outline-dark">Read more</a>
                 </div>
 
-                <div class="personalprojectsthatilike">
-                <p class="title">Personal projects that i liked.</p>
-                        <a href=""><img src="./images/personal projects that i liked/project1.jpg" alt="HipitiHop" target="_black"></a>
-                        <a href=""><img src="./images/personal projects that i liked/project2.jpg" alt="Bloom" target="_black"></a>
-               </div>
-        
-        </section>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5 mb-4" id="project2">
+                    <a href="./project2.html">
+                        <img src="./images/02.jpg" alt="A picture of the second project" class="img-fluid">
+                    </a>
+                    <ul class="list-inline gap-3 mt-2 mb-2 opacity-50 fw-semibold">
+                        <li class="list-inline-item">HTML</li>
+                        <li class="list-inline-item">JavaScript</li>
+                        <li class="list-inline-item">SCSS</li>
+                        <li class="list-inline-item">API</li>
+                    </ul>
+                    <a href="./project2.html" class="text-decoration-none">
+                        <h2 class="h2 fw-semibold text-capitalize">not ready yet</h2>
+                    </a>
+                    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia debitis amet laudantium quaerat optio ad rem!…</p>
+                    <a href="./project2.html" class="btn btn-outline-dark">Read more</a>
+                </div>
 
-</article>
+            </div>
+        </div>
+    </section>
 
-        <footer>
-                <img src="./images/me.jpg" alt="This is my face" id="me">
-                <p>
-                        Helloo<br>
-                        <br> My name is <a href="https://www.linkedin.com/in/aristotelispallasidis/" target="_black">Aristotelis Pallasidis</a>
-                        <br>A Computer Science at International Hellenic University in Kavala, Greece. 
-                        <br>If you are instrested in any of my projects feel free to reach out to me.
-                </p>
-                <br>
-                <p><a href="">Read More</a></p>
-                <br>
-                <p><a href="https://www.linkedin.com/in/aristotelispallasidis/" target="_black">LinkedIn</a></p>
-                <p><a href="more.html" target="_black"> aristotelis.pallasid@gmail.com</a></p>
-          
-                <p class="credit">All Rights Reserved to <a href="https://twitter.com/_pallasidis_" target="_black">Aristotelis Pallasidis</a>&copy; made @2020</p>
-                 
-        </footer>
+
+    <section>
+        <div class="container mt-5 mb-5 pt-5">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 mb-4 pt-4" id="project3">
+                    <a href="./project3.html">
+                        <img src="./images/03.jpg" alt="" class="img-fluid">
+                    </a>
+                    <ul class="list-inline gap-3 mt-2 mb-2 opacity-50 fw-semibold">
+                        <li class="list-inline-item">Python</li>
+                        <li class="list-inline-item">FLASK</li>
+                        <li class="list-inline-item">MySQL</li>
+                        <li class="list-inline-item">MongoDB</li>
+                    </ul>
+                    <a href="./project3.html" class="text-decoration-none">
+                        <h2 class="h2 fw-semibold text-capitalize">not ready yet</h2>
+                    </a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia debitis amet laudantium optio ad rem!…</p>
+                    <a href="./project3.html" class="btn btn-outline-dark">Read more</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 mb-4 pt-4" id="project4">
+                    <a href="./project4.html">
+                        <img src="./images/04.jpg" alt="" class="img-fluid">
+                    </a>
+                    <ul class="list-inline gap-3 mt-2 mb-2 opacity-50 fw-semibold">
+                        <li class="list-inline-item">HTML5</li>
+                        <li class="list-inline-item">JavaScript</li>
+                        <li class="list-inline-item">SCSS</li>
+                    </ul>
+                    <a href="./project4.html" class="text-decoration-none">
+                        <h2 class="h2 fw-semibold text-capitalize">not ready yet</h2>
+                    </a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia debitis amet laudantium optio ad rem!…</p>
+                    <a href="./project4.html" class="btn btn-outline-dark">Read more</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mt-4 mb-5">
+
+            <p class="text-center mt-5 pt-5">Feel Free to Follow <a href="./me.html" class="text-dark text-decoration-none">Me</a>❤️</p>
+            <ul class="nav justify-content-center align-items-center gap-4 mt-5 mb-5 pb-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/AristotleOfCode" target="_black">
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/aristotelispallasidis/" target="_black">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/AristotelisPallasidis" target="_black">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    
+    <style>
+        /* ===== Scrollbar CSS ===== */
+        /* Firefox */
+        * {
+            scrollbar-width: auto;
+            scrollbar-color: #5ebd3e #ffffff;
+        }
+
+        /* Chrome, Edge, and Safari */
+        *::-webkit-scrollbar {
+            width: 16px;
+        }
+
+        *::-webkit-scrollbar-track {
+            background: #ffffff;
+        }
+
+        *::-webkit-scrollbar-thumb {
+            background-color: #5ebd3e;
+            border-radius: 0px;
+            border: 0px none #ffffff;
+        }
+    </style>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
+
+
+    <!-- JavaScript -->
+    <script src="./js/index.js"></script>
 
 
 </body>

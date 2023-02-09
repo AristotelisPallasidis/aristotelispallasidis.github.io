@@ -21,6 +21,7 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon_package_v0.16/favicon.ico" type="image/x-icon">
@@ -47,6 +48,29 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 
+    <style>
+        /* ===== Scrollbar CSS ===== */
+        /* Firefox */
+        * {
+            scrollbar-width: auto;
+            scrollbar-color: #5ebd3e #ffffff;
+        }
+
+        /* Chrome, Edge, and Safari */
+        *::-webkit-scrollbar {
+            width: 16px;
+        }
+
+        *::-webkit-scrollbar-track {
+            background: #ffffff;
+        }
+
+        *::-webkit-scrollbar-thumb {
+            background-color: #5ebd3e;
+            border-radius: 0px;
+            border: 0px none #ffffff;
+        }
+    </style>
 </head>
 <body>
 
@@ -72,7 +96,7 @@
                             <a href="./index.html" class="nav-link active" id="projects">projects</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="./aboutMe.html" class="nav-link" id="me">about me</a>
+                            <a href="./about.html" class="nav-link" id="me">about me</a>
                         </li>
                     </ul>
                 </div>
@@ -92,28 +116,31 @@
                     <ul class="list-inline gap-3 mt-2 mb-2 opacity-50 fw-semibold">
                         <li class="list-inline-item">HTML5</li>
                         <li class="list-inline-item">CSS</li>
-                        <li class="list-inline-item">Bootstrap 5</li>
+                        <li class="list-inline-item">Bootstrap 5.2</li>
                         <li class="list-inline-item">JavaScript</li>
                     </ul>
                     <a href="./project1.html" class="text-decoration-none">
                         <h2 class="h2 fw-semibold text-decoration-none">Personal Portfolio</h2>
                     </a>
-                    <p>This project is about the personal website that you are using right now...</p>
+                    <p>This project is about the personal website that you are using right now.</p>
                     <a href="./project1.html" class="btn btn-outline-dark">Read more</a>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5 mb-4 disabled" id="project2" disabled>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5 mb-4" id="project2">
                     <a href="./project2.html">
                         <img src="./images/project2/02.jpg" alt="A picture of the second project" class="img-fluid">
                     </a>
                     <ul class="list-inline gap-3 mt-2 mb-2 opacity-50 fw-semibold">
-                        <li class="list-inline-item">None</li>
+                        <li class="list-inline-item">HTML5</li>
+                        <li class="list-inline-item">CSS</li>
+                        <li class="list-inline-item">JavaScript</li>
+                        <li class="list-inline-item">API</li>
                     </ul>
                     <a href="./project2.html" class="text-decoration-none">
-                        <h2 class="h2 fw-semibold text-capitalize">not ready yet</h2>
+                        <h2 class="h2 fw-semibold text-capitalize">War of Cards</h2>
                     </a>
-                    
-                    <p>Nothing to see here</p>
+
+                    <p>A game of card comparison was created with JavaScript HTML CSS and the API of deckofcardsapi.</p>
                     <a href="./project2.html" class="btn btn-outline-dark">Read more</a>
                 </div>
 
@@ -184,31 +211,6 @@
 
         </div>
     </section>
-
-    
-    <style>
-        /* ===== Scrollbar CSS ===== */
-        /* Firefox */
-        * {
-            scrollbar-width: auto;
-            scrollbar-color: #5ebd3e #ffffff;
-        }
-
-        /* Chrome, Edge, and Safari */
-        *::-webkit-scrollbar {
-            width: 16px;
-        }
-
-        *::-webkit-scrollbar-track {
-            background: #ffffff;
-        }
-
-        *::-webkit-scrollbar-thumb {
-            background-color: #5ebd3e;
-            border-radius: 0px;
-            border: 0px none #ffffff;
-        }
-    </style>
 
 
     <!-- JavaScript Bundle with Popper -->
